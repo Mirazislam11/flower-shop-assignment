@@ -1,15 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-nav{
+.banner{
     display: flex;
     width: 708px;
     flex-direction: column;
+
 }
-.text-primary{
+.banner h2{
+    margin: 100px 100px 30px;
     color: #272727;
-}
+    font-size: 48px;
+    font-weight: 800;
+    }
+.banner  p{
+    margin: 0px 29px 0px 100px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+   }
+
 .btn-primary{
     color: #FFF;
     font-size: 20px;
@@ -17,11 +33,23 @@ nav{
     display: inline-flex;
     padding: 20px 43px;    
     gap: 10px;
+    margin: 10px 0px 0px 90px;
     border-radius: 8px;
     background: #E55473;
     border: 0;
 }
-.header{
-    
+.header {
     background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    
+}
+.header .Flower{
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+   
 }
