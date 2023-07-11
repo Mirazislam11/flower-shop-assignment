@@ -1,0 +1,27 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+}
+.text-primary{
+    color: #272727;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 20px 43px;    
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+}
+.header{
+    
+    background-color: rgba(229, 84, 115, 0.10);
+}
