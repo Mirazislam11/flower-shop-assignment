@@ -43,13 +43,136 @@ body{
     display: flex;
     align-items: center;
     
+    
 }
 .header .Flower{
     width: 400px;
     height: 500px;
     flex-shrink: 0;
+    
+
 }
 .banner{
     padding: 30px 30px 30px 150px;
    
+}
+.flower-Featured{
+    padding: 130px;
+}
+.flower-Featured h4{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.flower-Featured p{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 30px;
+   
+}
+.flower-flower{
+    display: flex;
+    gap: 150px;
+
+}
+.flower-flower .img_1 .pink-flower{
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 200px 200px 0px 0px;
+}
+.flower-flower .img_2 .red-flower{
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 200px 200px 0px 0px;
+}
+.flower-flower .img_3 .yellow-flower{
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 200px 200px 0px 0px;
+    background-size: cover;
+}
+.flower-flower.img_1.text{
+    text-align: center;
+}
+.iconic-area{
+    display: flex;
+    margin: 50px 0px 30px 400px;
+    gap: 40px;
+    width: 800px;
+    height: 200px;
+    flex-shrink: 0;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+.hot-deal{
+    width: 1750px;
+    height: 400px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal .deal-title{
+    margin: 30px 0 px 0px 200px;
+}
+.hot-deal .deal-title h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-deal .deal-title p{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+/*.iconic-area .icon_1{
+    width: 44px;
+    height: 44px;
+}
+.iconic-area .icon_1 p{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+.iconic-area .icon_2{
+    width: 44px;
+    height: 44px;
+}
+.iconic-area .icon_2 p{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.iconic-area .icon_3{
+    width: 44px;
+    height: 44px;
+}
+.iconic-area .icon_3 p{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
