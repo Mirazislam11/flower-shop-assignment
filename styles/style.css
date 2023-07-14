@@ -18,6 +18,7 @@ body{
     font-size: 48px;
     font-weight: 800;
     }
+
 .banner  p{
     margin: 0px 29px 0px 100px;
     color: rgba(39, 39, 39, 0.60);
@@ -77,7 +78,8 @@ body{
 .flower-flower{
     display: flex;
     gap: 150px;
-
+    margin: 20px;
+    
 }
 .flower-flower .img_1 .pink-flower{
     width: 310px;
@@ -106,41 +108,31 @@ body{
 }
 .iconic-area{
     display: flex;
-    margin: 50px 0px 30px 400px;
-    gap: 40px;
-    width: 800px;
+    max-width: 1121px;
     height: 200px;
-    flex-shrink: 0;
+    margin: auto;
+    border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-
+    justify-content: space-around;
+    padding: 60px;
+}
+.icon{
+    text-align: center;
+    
 }
 .hot-deal{
-    width: 1750px;
-    height: 400px;
+    width: 1522px;
+    height: 420px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-}
-.hot-deal .deal-title{
-    margin: 30px 0 px 0px 200px;
-}
-.hot-deal .deal-title h3{
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-}
-.hot-deal .deal-title p{
+    margin: 40px 0;
     display: flex;
-    width: 594px;
-    flex-direction: column;
-    flex-shrink: 0;
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    justify-content: space-around;
 }
+
+
+
+
 /*.iconic-area .icon_1{
     width: 44px;
     height: 44px;
