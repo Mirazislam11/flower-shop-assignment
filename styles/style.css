@@ -153,45 +153,83 @@ body{
     font-weight: 400;
     line-height: 30px;
 }
-
-.about-instragram.instra-titel{
-    
+.Diffrent-flowers{
+    width: 1400px;
+    height: 550px;
+    margin: auto;
 }
 
-
-
-/*.iconic-area .icon_1{
-    width: 44px;
-    height: 44px;
+.Get-deals{
+    width: 1340px;
+    height: 449px;
+    border-radius: 8px;
+    background: url('../Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    margin: auto;
 }
-.iconic-area .icon_1 p{
-    color: rgba(39, 39, 39, 0.80);
+.Get-deals .another-banner {
+    padding: 140px;
     text-align: center;
-    font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    
 }
-.iconic-area .icon_2{
-    width: 44px;
-    height: 44px;
+.Get-deals .another-banner h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
 }
-.iconic-area .icon_2 p{
-    color: rgba(39, 39, 39, 0.80);
+.Get-deals .another-banner p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.Get-deals .another-banner .input-btn{
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.btn-primary2{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 20px 43px;    
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+}
+
+.list-part{
+    width: 1150px;
+    height: 200px;
     text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 35px;
+    padding: 130px;
+    color: #FFF;
+    background: #101010;
+    margin: 30px;
 }
-.iconic-area .icon_3{
-    width: 44px;
-    height: 44px;
+
+.list-part .flower-shop h2{
+    font-size: 48px;
+    font-weight: 800;
 }
-.iconic-area .icon_3 p{
-    color: rgba(39, 39, 39, 0.80);
+.list-part .flower-shop h2 span{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+.list-part .flower-shop .text-dereaction{
+    color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 10px;
+}
+.list-part .flower-shop .text-footer{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
